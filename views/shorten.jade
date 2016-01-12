@@ -1,0 +1,8 @@
+extends layout
+
+block content
+  h2 Your URL
+  div(class="row form-group col-md-6 text-center")
+    input(value="#{link}", class="form-control", readonly="true")
+    br
+    a(class="btn btn-default form-control", href="#{link}") Open URL

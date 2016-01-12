@@ -1,7 +1,9 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
-  pre
-    code an code
+  form(action="/shorten", method="post")
+    div(class="form-group col-md-6 text-center")
+     input(class="form-control", type="text", placeholder="Enter URL")
+     br
+     input(class="form-control btn btn-primary", type="submit", value="Shorten")
+
