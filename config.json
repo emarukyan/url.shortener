@@ -1,0 +1,9 @@
+{
+	"development": {
+        "pgConnectionString": "postgres://DBUSER:PASSWORD@localhost/DBNAME",
+	},
+
+	"production": {
+		"pgConnectionString": "postgres://DBUSER:PASSWORD@localhost/DBNAME",
+	}
+}
